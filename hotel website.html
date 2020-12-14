@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Zaph hotel</title>
+    </head>
+    <style>
+        #start-page{
+            background:linear-gradient(rgba(0,0,0,0.5), gold), url("bg1.jpg");
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+        }
+        #hotel-title{
+            position:relative;
+            padding-top:180px;
+            text-align:center;
+        }
+        #hotel-title h1{
+            font-size:70px;
+            font-family: 'Kaushan script',cursive;
+            color:white;
+            font-style: oblique;
+        }
+        #hotel-title p{
+            font-size:40px;
+            font-family: 'Kaushan script',cursive;
+            color:white;
+            font-style: italic;
+        }
+        #hotel-title a{
+            font-size:25px;
+            text-decoration: none;
+            border:2px solid cyan;
+            color:blue;
+            padding:4px 15px;
+        }
+        #about-us{
+            display:grid;
+            grid-template-columns: 60% 40%;
+        }
+        #pictorials{
+            display:flex;
+            flex-direction:column;
+        }
+        #pictorials img{
+            height:300px;
+            margin-left:5%;
+        }
+        #about-us h3{
+            font-family:monospace;
+            font-style: oblique;
+            color:gold;
+            font-size:20px;
+        }
+        #about-us h2{
+            font-family:monospace;
+            font-style: oblique;
+            color:rgb(29, 25, 2);
+            font-size:30px;
+        }
+        #about-us p{
+            font-family:monospace;
+            font-style:normal;
+            color:lime;
+            font-size:25px;
+        }
+        #features-area{
+            background:linear-gradient(rgb(36, 35, 32),rgb(7, 39, 7));
+        }
+        .service-text{
+            text-align:center;
+            padding:1.5% 3% 1.5% 3%;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size:20px;
+            color:green;
+        }
+        #services{
+            height:100vh;
+            display:flex;
+            flex-direction: column;
+        }
+        .service-box{
+            display:grid;
+            grid-template-columns: 20% 75%;
+        }
+        .service-text{
+            margin-left:5%;
+            margin-right:5%;
+            border:2px solid greenyellow;
+            background:khaki;
+            box-shadow: 1px 1px 1px;
+        }
+        .service-text:hover{
+            transform: scale(1.05);
+        }
+        .sections-title{
+            text-align: center;
+            font-style: bold;
+            font-family: monospace;
+            font-size:45px;
+        }
+    </style>
+    <body>
+        <section id="start-page">
+            <div id="hotel-title">
+                <h1>WELCOME TO ZAPH HOTEL</h1>
+                <p>THE PERFECT PLACE FOR RECREATION AND CONFERENCING</p>
+                <a href="#">home</a>
+                <a href="#about hotel">about us</a>
+                <a href="#ourservices">services</a>
+                <a href="#">contact us</a>
+                <a href="#">book</a>
+            </div>
+        </section>
+        <h2 class="sections-title"id="about hotel">ABOUT US</h2>
+        <div id="about-us">
+            <div id="features-area">
+                <h3><u>location</u></h3>
+                <p>we are located along pluto jupiter highway 3 hours drive from mars</p>
+                <h3><u>Vision</u></h3>
+                <p>To become the best hotel services provider in the universe</p>
+                <h3><u>Mission</u></h3>
+                <p>Ensuring the comfort of our customers and making sure they get the best services</p>
+                <h3><u>Our Pride</u></h3>
+                <p>We boast over 5 million customers in a 3 months statistics</p>
+                <h3><u>Our Plights</u></h3>
+                <p>The roads connecting to our hotel are not good, they are unworthy, and this discourages
+                     our customers sometimes in terms of looking for us.
+                </p>
+            </div>
+            <div id="pictorials">
+                <img src="conf1.jpg">
+                <img src="food1.jpg">
+            </div>
+        </div>
+        <h2 id="ourservices" class="sections-title">SERVICES</h2>
+        <section id="services">
+            <div class="service-box">
+                <div><img src="conf4.jpg"></div>
+                <div class="service-text">
+                    <h3>CONFERENCING FACILITIES</h3><p>Explore our huge range of conferencing facilities at a very cheap and affordable
+                    price.Our conferencing facilities are customised to meet your needs from official meetings
+                    , church events and more.
+                    </p>
+                </div>
+            </div><br>
+            <div class="service-box">
+                <div><img src="food3.jpg"></div>
+                <div class="service-text">
+                        <h3>MEALS</h3>
+                        <p>Delicious meals that fit all diversities. It doesn't matter which from background you
+                            from, our experienced staff from all over the world got you covered.
+                        </p>
+                </div>
+            </div><br>
+            <div class="service-box">
+                <div><img src="honey2.jpg"></div>
+                <div class="service-text">
+                        <h3>HONEYMOON</h3>
+                        <p>Wait! Did you just get married, or you are about to get married but you don't know
+                            where to take your spouse for honeymoon, well look no further, we got you covered.
+                        </p>
+                </div>
+            </div><br>
+            <div class="service-box">
+                <div><img src="recreation.jpg"></div>
+                <div class="service-text">
+                        <h3>RECREATION FACILITES</h3>
+                        <p>Once you are with us, you will never get bored, we got you covered in terms of 
+                            recreation from our wide range of recreation facilities ranging from swimming
+                            pools and more.
+                        </p>
+                </div>
+            </div><br>
+    </body>
+</html>
